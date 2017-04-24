@@ -8,8 +8,8 @@ var numberValues = [];
 // @breif: gets a value entered by the user and checks if value is a number
 //         if value entered is not a number generates an alert informing the user
 //         and does nothing. If value is a number then casts the value as a number,
-//         adds the number to the end of the array, calls functions updateTotal()
-//         and updateAverage(), displays these values, resets text input box to
+//         adds the number to the end of the array, calls functions calculateTotal()
+//         and calculateAverage(), displays these values, resets text input box to
 //         the empty string.
 function addANewNumber() {
   // Get text input from DOM
